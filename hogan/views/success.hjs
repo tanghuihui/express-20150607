@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+
+<div class="middle-box text-center loginscreen animated fadeInDown">
+    <div>
+        <div>
+
+            <h1 class="logo-name">{{ title }}</h1>
+
+        </div>
+        <h3 class="suc-name">欢迎 {{ username }} ,即将开启我们的express浪漫之旅</h3>
+        <p class="m-t"> <small>&copy; 20150607</small> </p>
+    </div>
+</div>
+
+</body>
+
+</html>
