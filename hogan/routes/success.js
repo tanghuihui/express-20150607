@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
     if(req.body.username.replace(/(^\s*)|(\s*$)/g, "")=="" || req.body.password.replace(/(^\s*)|(\s*$)/g, "")=="" ){
-        res.redirect('/index');
+        res.redirect('/');
     }else{
         res.render('success', { title: 'Express' ,username:req.body.username});
     }
