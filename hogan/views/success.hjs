@@ -14,10 +14,28 @@
             <h1 class="logo-name">{{ title }}</h1>
 
         </div>
-        <h3 class="suc-name">欢迎 {{ username }} ,即将开启我们的express浪漫之旅</h3>
-        <p class="m-t"> <small>&copy; 20150607</small> </p>
+        <h3 class="suc-name"><span class="c00">{{greeting}}</span>:欢迎 {{ username }} </h3>
+        <h3 class="suc-name">即将开启我们的express浪漫之旅</h3>
     </div>
 </div>
+
+<table cellpadding="0" cellspacing="0" class="suc-tab">
+    <tr>
+        <th width="25%">名称</th>
+        <th  width="25%">说明</th>
+        <th  width="50%">图片</th>
+    </tr>
+    {{#hhlist}}
+
+<tr>
+    <td class="c00">{{picName}}</td>
+    <td >{{picDesc}}</td>
+    <td ><img src="{{imgSrd}}" alt=""/></td>
+</tr>
+    {{/hhlist}}
+</table>
+
+
 
 </body>
 

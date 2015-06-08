@@ -6,6 +6,10 @@
 /*a {*/
   /*color: #00B7FF;*/
 /*}*/
+.c00{color:#c00;}
+.suc-tab{border:solid 1px #000000;border-collapse: collapse;width:1000px;margin:0 auto;}
+.suc-tab td,.suc-tab th{border:solid 1px #000000;text-align: center;vertical-align: middle;font-size: 14px;padding: 0 10px;}
+.suc-tab th{height: 40px;}
 .suc-name{line-height:100px;}
 h1,
 h2,
