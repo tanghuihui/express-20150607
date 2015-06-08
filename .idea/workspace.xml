@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d362a27-ffd4-4c7c-a0be-853cfb65220c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hogan/public/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hogan/public/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hogan/public/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hogan/public/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hogan/public/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hogan/Biz/Time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/hjs-20150608-1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hogan/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/hogan/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hogan/views/success.hjs" afterPath="$PROJECT_DIR$/hogan/views/success.hjs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hogan/routes/success.js" afterPath="$PROJECT_DIR$/hogan/routes/success.js" />
