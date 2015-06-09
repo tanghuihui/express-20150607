@@ -15,7 +15,12 @@ router.post('/', function(req, res, next) {
         res.redirect('/');
     }else{
         console.log(Time.Time());
-        res.render('success', { title: 'Express' ,greeting:Time.Time(),username:req.body.username,hhlist:[
+        res.render('success', { title: 'Express' ,greeting:function(){
+            return function(){
+              return  Time.Time();
+                Time.Time();
+            }
+        },username:req.body.username,hhlist:[
 
             {picName:'哆啦A梦',picDesc:'第七公社 三口亲子装夏装2015新款 哆啦A梦全家装t恤衫短袖母女装 ',imgSrd:'/images/1.jpg'},
             {picName:'哆啦A梦',picDesc:'第七公社 亲子装夏装2015款哆啦A梦全家装 韩版母女装短袖t恤童装 ',imgSrd:'/images/2.jpg'},
