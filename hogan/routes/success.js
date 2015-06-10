@@ -4,7 +4,7 @@
 var express = require('express');
 var router = express.Router();
 var Time=require('../Biz/Time');
-
+var moment=require('moment');
 router.get('/', function(req, res, next) {
     res.render('success', { title: 'Express'  ,username:new Date().getDate()});
 });
@@ -14,7 +14,9 @@ router.post('/', function(req, res, next) {
     if(req.body.username.replace(/(^\s*)|(\s*$)/g, "")=="" || req.body.password.replace(/(^\s*)|(\s*$)/g, "")=="" ){
         res.redirect('/');
     }else{
-        console.log(Time.Time());
+        if(!req.session.has('username')){
+            req.session.put('username',req.body.username.trim());
+       }
         res.render('success', { title: 'Express' ,greeting:function(){
             return function(){
               return  Time.Time();

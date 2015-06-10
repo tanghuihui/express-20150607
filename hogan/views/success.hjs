@@ -14,7 +14,7 @@
             <h1 class="logo-name">{{ title }}</h1>
 
         </div>
-        <h3 class="suc-name"><span class="c00">{{#greeting}}{{/greeting}}</span>:欢迎 {{ username }} </h3>
+        <h3 class="suc-name"><span class="c00">{{#greeting}}{{/greeting}}</span>:欢迎 {{ username }} <a class="c00" href="/"> 退出</a> </h3>
         <h3 class="suc-name">即将开启我们的express浪漫之旅</h3>
     </div>
 </div>

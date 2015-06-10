@@ -1,0 +1,18 @@
+﻿-----------------
+ status:1
+ url:/success
+ date:June 10th 2015, 2:02:16 pm
+ username:啥地方是打发点
+------------------
+
+------------------
+ 
+ status:1
+ 
+ url:/success
+ 
+ date:June 10th 2015, 2:02:16 pm
+ 
+ username:啥地方是打发点
+------------------
+
